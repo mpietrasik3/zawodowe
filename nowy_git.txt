@@ -1,1 +1,2 @@
 pierwsza linijka gita
+druga linijka
