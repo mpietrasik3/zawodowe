@@ -1,0 +1,42 @@
+public class zad2 {
+    public static void main(String[] args) {
+        import java.util.Scanner;
+
+        public class NajwiekszaINajmniejsza {
+            public static void main(String[] args) {
+                Scanner scanner = new Scanner(System.in);
+
+                System.out.print("Podaj pierwszą liczbę: ");
+                int a = scanner.nextInt();
+
+                System.out.print("Podaj drugą liczbę: ");
+                int b = scanner.nextInt();
+
+                System.out.print("Podaj trzecią liczbę: ");
+                int c = scanner.nextInt();
+
+                int max = a;
+                if (b > max) {
+                    max = b;
+                }
+                if (c > max) {
+                    max = c;
+                }
+
+                int min = a;
+                if (b < min) {
+                    min = b;
+                }
+                if (c < min) {
+                    min = c;
+                }
+
+                System.out.println("Największa liczba: " + max);
+                System.out.println("Najmniejsza liczba: " + min);
+
+                scanner.close();
+            }
+        }
+
+    }
+}
