@@ -25,5 +25,6 @@ public class zad4 {
 
         System.out.println("Oryginał: " + napis);
         System.out.println("Po flipCase: " + flipCase(napis));
+        System.out.println("TEST");
     }
 }
